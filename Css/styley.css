@@ -165,22 +165,32 @@ transition: 0.5s;
     list-style: none;
     margin: 10px;
     font-size: 30px;
-    padding: 10px 10px;
     display: inline-block;
-    border: 1.5px solid #FF851B;
-    border-radius: 40%;
     transition: 0.5s;
 }
 .card .details ul li a {
-    color:#FF851B;
+    padding: 8px 10px;
+    border: 1.5px solid #FF851B;
+    border-radius: 50%;
+    display: block;
+    background: #FF851B;
+    color:black;
     transition: 0.5s;
 }
 .card .details ul li a:hover{
-    color:#3D9970;
+    background-color: white;
     font-size: 40px;
     transition: 0.5s;
 }
-
+.card .details ul li:nth-child(1) a:hover{
+    color:#0077B5;
+}
+.card .details ul li:nth-child(2) a:hover{
+    color:#b31c38;
+}
+.card .details ul li:nth-child(3) a:hover{
+    color:black;
+}
 
 
 
